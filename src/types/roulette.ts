@@ -1,3 +1,7 @@
+import peperoAlmondImg from '../assets/pepero_almond.png';
+import peperoChocoImg from '../assets/pepero_choco.png';
+import peperoChocoFilledImg from '../assets/pepero_chocofilled.png';
+
 export interface PeperoPrize {
   id: 'chocofilled' | 'almond' | 'choco';
   name: string;
@@ -28,7 +32,7 @@ export const PEPERO_PRIZES: PeperoPrize[] = [
     innerColor: '#FAD34D',
     accentBg: '#FEF7D6',
     textColor: '#A16207',
-    imageUrl: '/assets/pepero_chocofilled.png',
+    imageUrl: peperoChocoFilledImg,
     weight: 3,
     startAngle: 0,
     endAngle: 120,
@@ -43,7 +47,7 @@ export const PEPERO_PRIZES: PeperoPrize[] = [
     innerColor: '#56C463',
     accentBg: '#E4F7E7',
     textColor: '#15803D',
-    imageUrl: '/assets/pepero_almond.png',
+    imageUrl: peperoAlmondImg,
     weight: 3,
     startAngle: 120,
     endAngle: 240,
@@ -58,7 +62,7 @@ export const PEPERO_PRIZES: PeperoPrize[] = [
     innerColor: '#F15B5B',
     accentBg: '#FEE6E6',
     textColor: '#B91C1C',
-    imageUrl: '/assets/pepero_choco.png',
+    imageUrl: peperoChocoImg,
     weight: 4,
     startAngle: 240,
     endAngle: 360,
